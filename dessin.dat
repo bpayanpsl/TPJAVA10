@@ -1,0 +1,95 @@
+[ROND NOIR [33;4], 84]
+[ROND ROUGE [10;37], 65]
+[ROND ROUGE [19;20], 87]
+CARRE VERT [pointHautDroit=[8;44], pointBasDroit=[8;37], pointHautGauche=[1;44], pointBasGauche=[1;37]]
+Segment [x=[8;14], y=[10;14], color=NOIR]
+[ROND JAUNE [36;12], 67]
+[ROND BLEU [4;44], 31]
+[ROND JAUNE [8;40], 64]
+Segment [x=[3;16], y=[14;16], color=VERT]
+[ROND NOIR [11;11], 48]
+Segment [x=[13;19], y=[43;19], color=JAUNE]
+Segment [x=[45;23], y=[46;23], color=BLEU]
+[ROND VERT [30;21], 78]
+[ROND ROUGE [30;28], 75]
+[ROND BLEU [46;50], 95]
+[ROND ROUGE [29;1], 90]
+[ROND JAUNE [26;15], 14]
+[ROND VERT [48;21], 85]
+[ROND BLEU [21;19], 61]
+CARRE ROUGE [pointHautDroit=[40;31], pointBasDroit=[40;7], pointHautGauche=[16;31], pointBasGauche=[16;7]]
+[ROND ROUGE [32;16], 31]
+[ROND NOIR [48;12], 56]
+Segment [x=[12;40], y=[31;40], color=VERT]
+CARRE JAUNE [pointHautDroit=[48;28], pointBasDroit=[48;15], pointHautGauche=[35;28], pointBasGauche=[35;15]]
+[ROND JAUNE [37;32], 86]
+[ROND ROUGE [49;22], 42]
+[ROND BLEU [6;16], 41]
+RECT BLEU [pointHautDroit=[48;33], pointBasDroit=[48;9], pointHautGauche=[24;33], pointBasGauche=[24;9]]
+[ROND NOIR [26;44], 84]
+[ROND JAUNE [43;7], 20]
+[ROND NOIR [23;48], 74]
+[ROND JAUNE [47;17], 42]
+[ROND VERT [33;50], 26]
+[ROND ROUGE [1;41], 49]
+Segment [x=[16;10], y=[35;10], color=NOIR]
+[ROND VERT [13;6], 94]
+[ROND NOIR [5;10], 71]
+[ROND ROUGE [15;22], 82]
+[ROND NOIR [18;24], 96]
+[ROND ROUGE [15;33], 69]
+[ROND BLEU [43;18], 64]
+[ROND BLEU [50;8], 33]
+[ROND BLEU [8;29], 32]
+[ROND VERT [31;44], 2]
+=================================================================================
+                                 V            B   
+                                                  
+                       N                          
+                                                  
+                                                  
+                                                  
+ V  B   V                 N    V                  
+                                                  
+                                                  
+ R                                                
+        J   V                  V                  
+                                                  
+                                                  
+ V      V R                                       
+                                                  
+                                                  
+                                                  
+               R        B                       B 
+                                     J            
+                R                       R         
+                                                  
+        B                                         
+                              R    J            J 
+                                                  
+                                                  
+                                                  
+                  N                               
+                                             BB   
+               R                                 R
+                              V                 V 
+                   R                              
+             J       B                     J      
+                                           B      
+                                               J  
+   V  B       V                 R                 
+                          J        J            J 
+        N N                                       
+                                                  
+                                    J           N 
+           N                                      
+     N          N                  N              
+                        B                       B 
+                                                  
+                R                       R  J      
+             V                                    
+                                                  
+                                 N                
+                                                  
+                                                  
+                             R                    
