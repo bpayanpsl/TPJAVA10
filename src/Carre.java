@@ -9,6 +9,10 @@ public class Carre extends Rectangle {
 		super(point, cote, cote, c);
 	}
 	
+	
+	
+	
+	
 	protected String getType() {
 		
 		
