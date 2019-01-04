@@ -6,12 +6,11 @@ import java.util.Collections;
 import java.util.List;
 
 public abstract class Figure implements Comparable<Figure> {
-	
+
 	protected Couleur color;
+
 	protected abstract String getType();
 
-	
-	
 	/**
 	 * affiche l'objet de façon lisible
 	 */
@@ -22,7 +21,6 @@ public abstract class Figure implements Comparable<Figure> {
 	public abstract Collection<Point> getPoint();
 
 	public abstract boolean Couvre(Point p);
-
 
 	public double distanceOrigine() {
 		Collection<Point> points = this.getPoint();
@@ -42,7 +40,7 @@ public abstract class Figure implements Comparable<Figure> {
 		}
 		return 0;
 	}
-	
+
 	public Couleur getCouleur() {
 		return this.color;
 	}

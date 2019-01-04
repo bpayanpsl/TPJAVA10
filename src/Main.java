@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		List<Long> number = new ArrayList<>();
 		number.add(1L);
 		number.add(14L);
@@ -52,8 +52,8 @@ public class Main {
 			System.out.println(res);
 		} else {
 			System.out.println(10);
-		}	
-		
+		}
+
 //		System.out.println("==========================");
 //		
 //		//Heure actuelle

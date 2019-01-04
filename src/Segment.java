@@ -8,8 +8,8 @@ public class Segment extends Figure {
 	private Point y;
 
 	/**
-	 * @param debut point d'origine, bas gauche
-	 * @param longueur longueur du segment
+	 * @param debut      point d'origine, bas gauche
+	 * @param longueur   longueur du segment
 	 * @param horizontal true si horizotal, false si vertical
 	 */
 	public Segment(Point debut, int longueur, boolean horizontal) {
@@ -31,7 +31,7 @@ public class Segment extends Figure {
 	public boolean Couvre(Point p) {
 		return p.getX() >= x.getX() && p.getX() <= y.getX() && p.getY() >= x.getY() && p.getY() <= y.getY();
 	}
-	
+
 	public String print() {
 		return "Segment " + getCouleur() + " [debut=" + x + ", fin=" + y + "]";
 	}
@@ -56,8 +56,6 @@ public class Segment extends Figure {
 	public String toString() {
 		return "Segment [x=" + x + ", y=" + y + ", color=" + color + "]";
 	}
-
-	
 
 	@Override
 	public int hashCode() {

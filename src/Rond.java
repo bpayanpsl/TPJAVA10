@@ -3,44 +3,44 @@ import java.util.Collection;
 import java.util.List;
 
 public class Rond extends Figure implements Surfacable {
-	
+
 	private Point p;
 	private int r;
-	
+
 	public Rond(Point point, int rayon) {
 		p = point;
 		r = rayon;
 		color = Couleur.getCouleurDefaut();
 	}
-	
+
 	public Rond(Point point, int rayon, Couleur c) {
 		this(point, rayon);
 		color = c;
 	}
-	
+
 	protected String getType() {
 		return "ROND";
 	}
-	
+
 	public String toString() {
-		return "["+ getType() + " " + getCouleur() + " " + p.toString() + ", " + r + "]";
+		return "[" + getType() + " " + getCouleur() + " " + p.toString() + ", " + r + "]";
 	}
-	
+
 	public int getR() {
 		return r;
 	}
-	
+
 	public double surface() {
 		return Math.PI * Math.pow(r, 2);
 	}
 
 	@Override
 	public Collection<Point> getPoint() {
-			List<Point> points = new ArrayList<>();
-			
-			points.add(p);
-			
-	 		return points;
+		List<Point> points = new ArrayList<>();
+
+		points.add(p);
+
+		return points;
 	}
 
 	@Override
@@ -76,14 +76,11 @@ public class Rond extends Figure implements Surfacable {
 		return true;
 	}
 
-	
-
-	/*public boolean equals(Figure fig) {
-		if(this.getType() != fig.getType()) {
-			return false;
-		}
-		
-		return false;	
-	}*/
+	/*
+	 * public boolean equals(Figure fig) { if(this.getType() != fig.getType()) {
+	 * return false; }
+	 * 
+	 * return false; }
+	 */
 
 }

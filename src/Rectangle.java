@@ -16,10 +16,10 @@ public class Rectangle extends Figure implements Surfacable {
 		pointHautDroit = new Point(point.getX() + w, point.getY() + h);
 		color = Couleur.getCouleurDefaut();
 	}
-	
+
 	public Rectangle(Point point, int w, int h, Couleur c) {
 		this(point, w, h);
-		color = c;		
+		color = c;
 	}
 
 	public Point getPointHautDroit() {
@@ -44,7 +44,7 @@ public class Rectangle extends Figure implements Surfacable {
 
 	@Override
 	public String toString() {
-		return getType() +  " " + color + " [pointHautDroit=" + pointHautDroit + ", pointBasDroit=" + pointBasDroit
+		return getType() + " " + color + " [pointHautDroit=" + pointHautDroit + ", pointBasDroit=" + pointBasDroit
 				+ ", pointHautGauche=" + pointHautGauche + ", pointBasGauche=" + pointBasGauche + "]";
 	}
 

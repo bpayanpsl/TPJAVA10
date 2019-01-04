@@ -5,14 +5,11 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class FigureUtil {
@@ -84,7 +81,7 @@ public class FigureUtil {
 		}
 	}
 
-	public static Collection<Point> getPoint(Figure... f) {		
+	public static Collection<Point> getPoint(Figure... f) {
 		List<Point> points = new ArrayList<Point>();
 		for (int i = 0; i < f.length; i++) {
 			points.addAll(f[i].getPoint());
@@ -101,8 +98,8 @@ public class FigureUtil {
 	}
 
 	public static Figure getFigureEn(Point p1, Dessin d1) {
-		
-		return d1.getFigures().stream().filter(f-> f.Couvre(p1)).findFirst().orElse(null);
+
+		return d1.getFigures().stream().filter(f -> f.Couvre(p1)).findFirst().orElse(null);
 //		
 //		for (Figure fig : d1.getFigures()) {
 //			if (fig.Couvre(p1)) {
@@ -113,7 +110,7 @@ public class FigureUtil {
 	}
 
 	public static Collection<Figure> trieOrigine(Dessin dessin) {
-		
+
 		return dessin.getFigures().stream().sorted().collect(Collectors.toList());
 //		ArrayList<Figure> trie = new ArrayList<>(dessin.getFigures());
 //		Collections.sort(trie);
@@ -121,8 +118,8 @@ public class FigureUtil {
 	}
 
 	public static Collection<Figure> trieSurface(Dessin dessin) {
-		
-		return dessin.getFigures().stream().filter(f -> f instanceof Surfacable).sorted((o1,o2)->{
+
+		return dessin.getFigures().stream().filter(f -> f instanceof Surfacable).sorted((o1, o2) -> {
 			Surfacable s1 = (Surfacable) o1;
 			Surfacable s2 = (Surfacable) o2;
 			if (s1.surface() > s2.surface()) {
@@ -132,8 +129,7 @@ public class FigureUtil {
 			}
 			return 0;
 		}).collect(Collectors.toList());
-		
-		
+
 //		List<Figure> figures = new ArrayList<>(dessin.getFigures());
 //		List<Figure> surfacable = new ArrayList<>();
 //		for (Figure f : figures) {
